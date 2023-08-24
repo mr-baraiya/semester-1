@@ -6,5 +6,8 @@ void main(){
 	scanf("%d",&a);
 	printf("enter value of b : ");
 	scanf("%d",&b);
-	printf("after swaiping value of a = %d and value of b =%d",b,a);
-}      
+	temp=a;
+	a=b;
+	b=temp;
+	printf("after swaiping value of a = %d and value of b =%d",a,b);
+}
